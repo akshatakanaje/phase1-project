@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/web.css">
+    </head>
+    <body>
+        <div>
+            <h1>Create a Client</h1>
+            <h4>Please fill in this form to create a client</h4>
+            <form>
+                <label>User Name</label>
+                <input type="text" placeholder="Enter your name" id="contact-name"  onkeyup="validateName" required>
+                <br>
+                <label>Email Id</label>
+                <input type="text" placeholder="Enter Email" id="contact-email" onkeyup="validateName" required>
+                <br>
+                <label>Address</label>
+                <input type="text" name="txtAddress"  placeholder="Enter Address"  required>
+                <br>
+                <label>Password</label>
+                <input type="text"  name="txtPassword"  placeholder="Enter Password"  required>
+                <br>
+                <label>Repeat Password</label>
+                <input type="text" name="txtRepeatPassword"  placeholder="Enter Repeat Password"  required>
+                <br>
+
+                <input type="submit"   value="Register">
+            </form>
+        </div>
+        
+    </body>
+</html>
